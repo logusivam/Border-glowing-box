@@ -1,0 +1,62 @@
+﻿
+body {
+    margin: 0;
+    padding: 0;
+    background: #232323;
+}
+.box {
+    position: relative;
+   margin-left:40%;
+   margin-top:15%;
+   width:400px;
+    background: linear-gradient(70deg,#000000,#3b3131);
+    height: 400px;
+    
+}
+.box h1 {
+    color: transparent;
+    text-transform: uppercase;
+    font-family:Calibri;
+    font-style:bold;
+    position: absolute;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 40%;
+    background-image: linear-gradient(45deg,#57ffb6,#290092,#28ff44,#ffd800,#00ff21,#00ff90);
+    background-size: 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: animate 7s linear infinite;
+}
+
+
+
+
+.box::before, .box::after{
+    content:'';
+    margin-left:-5px;
+    margin-top:-5px;
+    position:absolute;
+    background-image:linear-gradient(70deg,#ffd800,#00ff21,#00ff90,#ff006e,#ff6a00,#4800ff,#ffd800,#ff0000,#00ffff,#0026ff);
+    width:410px;
+    height:410px;
+    background-size:400%;
+    z-index:-1;
+    animation:animate 20s linear infinite;
+}
+@keyframes animate{
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position:400% 0;
+    }
+    100% {
+        background-position:0 0;
+    }
+}
+.box::after{
+    
+    filter:blur(30px);
+    
+}

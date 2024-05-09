@@ -25,10 +25,10 @@ Alternatively, you can directly copy the HTML and CSS code into your project fil
 
 ## Usage
 
-1. Include the `style.css` file in your HTML file:
+1. Include the `border.css` file in your HTML file:
 
 ```html
-<link rel="stylesheet" href="styke.css" type="text/css" />
+<link rel="stylesheet" href="border.css" type="text/css" />
 ```
 
 2. Add the following HTML code to create a border glowing box:

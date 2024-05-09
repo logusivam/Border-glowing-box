@@ -5,7 +5,7 @@ This project creates a simple HTML page with a glowing border effect around a bo
 
 ## Demo
 
-You can see a live demo of the project [here](https://logusivam.github.io/Glowing_Border_box/).
+You can see a live demo of the project [here](https://logusivam.github.io/Border-glowing-box/).
 
 ## Features
 

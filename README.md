@@ -7,6 +7,8 @@ This project creates a simple HTML page with a glowing border effect around a bo
 
 You can see a live demo of the project [here](https://logusivam.github.io/Border-glowing-box/).
 
+[CLICK HERE TO SUBSCRIBE MY YOUTUBE CHANNEL](https://www.youtube.com/@Logusivamacademy26)
+
 ## Features
 
 - Creates a visually appealing glowing border effect around a box.
